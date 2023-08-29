@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_stripe",
+  "version": "1.0.0",
+  "description": "Building a node js server and stripe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "author": "John Blesson Rowe",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "stripe": "^13.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
